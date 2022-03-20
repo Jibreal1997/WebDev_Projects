@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Link to CSS stylesheets-->
+  <link rel="stylesheet" href="Css/app.css">
+  <link rel="stylesheet" href="Css/bootstrap.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+</head>
+<main class="container">
+  <!-------------------------------------------------- Navigation Menu -------------------------------------->
+  <div class="row">
+    <div class="col-12">
+      <nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Pages/Projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Research Papers</a>
+          </li>
+        </ul>
+        <hr>
+      </nav>
+    </div>
+  </div>
+
+
+  <!-------------------------------------------------- Welcome Heading ---------------------------------------->
+  <div class="row">
+    <div class="col-12">
+      <h1>Welcome to my website</h1>
+    </div>
+  </div>
+
+
+  <!----------------------------------------------------Quotation--------------------------------------------->
+  <div class="row">
+    <div class="col-12">
+      <figure class="text-center">
+        <blockquote class="blockquote">
+          <p>A man has no name</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          A Man in <cite title="Source Title">Game of thrones</cite>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+
+  <!-------------------------------------------------------About me----------------------------------------------->
+  <div class="row">
+    <div class="col-12">
+      <h2>About me</h2>
+      <p> Diligent problem-solver with resourceful approach to challenges and organized style. Masters
+        Student with a wide array of skills in hardware design and software, eager to secure an
+        entry-level IC Design position. Intrigued by new challenges and always willing to learn. Ready
+        to help the team achieve company goals
+      </p>
+    </div>
+  </div>
+
+  <!----------------------------------------------------Education------------------------------------------------>
+  <div class="card mb-3">
+    <img src="Images/Univeristy.jpg" class="card-img-top img_main_head" alt="...">
+    <div class="card-body">
+      <h3 class="card-title">Education</h3>
+      <p class="card-text">
+      <h5>University of Ottawa</h5>
+      <ul>
+        <li> Master of Applied Science, Electrical And Computer Engineering, Expected in 12/2022</li>
+        <li> Continuing Education in : VLSI Design (Analog & Digital) , Embedded Software Design, Signal
+          Processing.</li>
+      </ul>
+
+      </ul>
+      <h5>Coventry University</h5>
+      <ul>
+        <li> Bachelor of Engineering, Electronics And Telecommunication , 03/2019</li>
+        <li> Dean's List 3.75/4.00 CGPA</li>
+      </ul>
+      </p>
+    </div>
+
+
+    <!--------------------------------------------------------------------------Work Experience--------------------------------------------------------------------------->
+    <div class="card mb-3">
+      <div class="card-body">
+        <h3 class="card-title">Work Experience</h3>
+        <p class="card-text">
+        <h5> Researcher at Middle East College (Jan 2020 - Aug 2020)</h5>
+        <ul>
+          <li>Implemented hardware design of wearable medical device involving multiple MCUs.</li>
+          <li>Solely responsible for programming prototype which required using SPI and I2C
+            communication protocols.</li>
+          <li> Programmed MCU to implement Haversine Law and interact with Heart Beat &
+            Temperatures sensors.</li>
+          <li>Used web based API to implement real time information stream from prototype.</li>
+          <li>Utility Patent pending.</li>
+        </ul>
+        </p>
+      </div>
+
+      <br>
+
+      <!---------------------------------------------------------------------------Skills---------------------------------------------------------------------------------->
+      <h3>Skills</h3>
+      <div class="row">
+        <div class="col-3">
+          <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+          <ul>
+            <li>HTML/CSS</li>
+            <li>Embedded C</li>
+            <li>Git</li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+          <ul>
+            <li>Cadence Virtuoso</li>
+            <li>Verilog</li>
+            <li>LT Spice</li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+          <ul>
+            <li>ModelSim Se</li>
+            <li>Eagle PCB Design</li>
+            <li>MATLAB</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <br>
+
+      <!---------------------------------------------------------------------------Projects--------------------------------------------------------------------------------->
+      <div class="row">
+        <div class="col-12">
+          <h3>Projects</h3>
+          <br>
+        </div>
+      </div>
+
+      <!-------------------------------------------------------------------------Project Cards---------------------------------------------------------------------------------->
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Images/Tech1.jpg" class="card-img-top img_main_head" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">RTL Verilog Designs and Verification</h5>
+              <p class="card-text">
+              <ul>
+                <li>Designed FIFO, 4-bit ALU, Frequency Divider, Dual Port RAM etc</li>
+                <li>Testbenches for Designs</li>
+                <li>Familiarity with Modelsim Se</li>
+                <li><a href="https://github.com/Jibreal1997/Verilog-Hardware-Design.git">GitHub Link</a></li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Images/Analog IC Design.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">IC Design Projects using Cadence Virtuoso</h5>
+              <p class="card-text">
+              <ul>
+                <li>Design of Cascaded Inverters as Buffer to drive large load Capacitance.</li>
+                <li>Design of Ring Oscillator.</li>
+                <li>Bi Directional Voltage Level Converter 5v | 3.3v</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Images/Stm32.webp" class="card-img-top img_main_head" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Drivers for STM32F303VC Microcontroller</h5>
+              <p class="card-text">
+              <ul>
+                <li>Wrote drivers for GPIO , SPI , I2C and UART communication protocols</li>
+                <li>Wrote programs testing the drivers eg: Communication between an Arduino and Stm32
+                  Board using SPI.</li>
+                <li><a href="https://github.com/Jibreal1997/Stm32F303VC_Drivers.git"> GitHub Link</a></li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Images/ARM M4.webp" class="card-img-top  img_main_head" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Processor Level Programming of Arm M4 Processor</h5>
+              <p class="card-text">
+              <ul>
+                <li>Bit Banding , Stack Pointers , Access Levels , interrupts etc.</li>
+                <li><a href="https://github.com/Jibreal1997/Stm32_Arm_M4_Processor.git"> GitHub Link</a></li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Images/Digital Signal  Processing.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Signal Processing Designs</h5>
+              <p class="card-text">
+              <ul>
+                <li>Design of Mean Filter Smoothing, Low pass , High Pass, Narrow Band.</li>
+                <li> Spectral Analysis of Signals</li>
+                <li><a href="https://github.com/Jibreal1997/Signal_Processing.git"> GitHub Link</a></li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Images/PCB Design.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PCB Designs using Eagle PCB</h5>
+              <p class="card-text">
+              <ul>
+                <li>Relay Driver</li>
+                <li>Real Time Clock</li>
+                <li>Wifi Module</li>
+                <li>Motor Speed Controller</li>
+                <li>Atmega2560 MCU Board</li>
+                <li><a href="https://github.com/Jibreal1997/PCB_Designs.git"> GitHub Link</a></li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+
+
+
+
+      <!---------------------------------------------------------------------------------Research Papers-------------------------------------------------------------->
+      <div class="row">
+
+        <h3>Research Papers</h3>
+        <br>
+      </div>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              IoT Based Wearable Device to Monitor the Signs of Quarantined remote patients of
+              COVID-19
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Abstract:</strong> Abstract
+              Monitoring and managing potential infected patients of COVID-19 is still a great challenge for the latest
+              technologies. In this work, IoT based wearable monitoring device is designed to measure various vital
+              signs related to COVID-19. Moreover, the system automatically alerts the concerned medical authorities
+              about any violations of quarantine for potentially infected patients by monitoring their real time GPS
+              data. The wearable sensor placed on the body is connected to edge node in IoT cloud where the data is
+              processed and analyzed to define the state of health condition. The proposed system is implemented with
+              three layered functionalities as wearable IoT sensor layer, cloud layer with Application Peripheral
+              Interface (API) and Android web layer for mobile phones. Each layer has individual functionality, first
+              the data is measured from IoT sensor layer to define the health symptoms. The next layer is used to store
+              the information in the cloud database for preventive measures, alerts, and immediate actions. The Android
+              mobile application layer is responsible for providing notifications and alerts for the potentially
+              infected patient family respondents. The integrated system has both API and mobile application
+              synchronized with each other for predicting and alarming the situation. The design serves as an essential
+              platform that defines the measured readings of COVID-19 symptoms for monitoring, management, and analysis.
+              Furthermore, the work disseminates how digital remote platform as wearable device can be used as a
+              monitoring device to track the health and recovery of a COVID-19 patient.
+              <br>
+              <a href="https://www.sciencedirect.com/science/article/pii/S2352914821000782"><strong>Link to
+                  paper</strong></a>
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              IoT based Autonomous Fire Suppression System For Vehicles
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Abstract: </strong>Fire safety has been a major concern for vehicles for a long time. Especially
+              vehicles which carry a large number of people e.g.: Trains, Buses, and Ships. Taking this problem into
+              consideration, a circuit has been designed that could minimize the adverse effects of such incidents and
+              decrease the emergency response time by detecting the fire and finding the nearest helping station based
+              on the coordinates using Haver sine formula. The system proposed has multiple uses, when no fire is
+              detected the circuit live streams data including temperature, number of passengers, location, and the
+              speed of the bus to the monitoring station using an API. When fire is detected by the sensors, the data
+              from these sensors is used by the program to autonomously perform series of steps including opening the
+              windows and sending the information to the nearest firefighting department in order to decrease the
+              response time. Prototype implementation shows that the system is able to detect the fire on time and send
+              the information without significant lag to the closest fire station. This paper also provides a simplified
+              guide to the researcher who would like to conduct projects based on IOT and fire safety.
+              <br>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9077825"><strong>Link to paper</strong></a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Designing and manufacturing of a user friendly and affordable nasal suction machine for
+              Acute Bronchiolitis treatment of children in Oman
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Abstract: </strong> Acute Bronchiolitis is a disease which usually infects children of the age 0
+              to 6 years old. The patients infected by this disease require medical attention at hospitals. The patients
+              must be admitted in the hospitals for a period of 2-3 days. Parents of the patients must stay in the
+              hospital along with them. This causes lack of hospital beds, more expense of the hospital to provide extra
+              food for the parents. By a qualitative research, it was found that parents would want an affordable device
+              so that they could care for their children from home instead of staying at the hospital. Parents from all
+              over Oman come to the capital so that their children can be treated. Children also tend to get exposed to
+              more sickness by being around sick children at the hospital. Taking this problem into consideration, a
+              circuit has been designed in such a way it was easy to use and that it could be used by parents to treat
+              their children at home without the need to visit a hospital. The circuit works on Arduino Uno and has
+              various pre-existing modules attached to it , the estimated cost of the device is far lesser than what the
+              mainstream industrial devices cost. The device consists of a Bluetooth Module for the purpose of
+              connectivity via cellphone ,a 12V vacuum pump to suck the mucus out of the patient’s lungs, variable
+              resistor to control the force of vacuum and a rubber tube capable of fitting into the nostril to allow
+              suction of mucus. This simple device made from the counter parts can offer significant benefits to
+              patients affected by Acute Bronchitis.
+              <br>
+              <a href="https://www.jsr.org/index.php/path/article/view/934"><strong>Link to paper</strong></a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Security enabled parallel connection for intercom
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Abstract: </strong> The paper is intended to keep up security amongst 4 parallel telephones
+              associated with a solitary telephone cable wire. The proposed system provide near independent line like
+              performance for the set of 4 intercoms line. At the point when two or more telephone is associated with a
+              solitary telephone wire line, anybody can pick up telephone to attend the discussion on other end. The
+              projected framework gives an answer for security amongst the telephones associated. So as to meet the
+              prerequisite we are utilizing four phones associated as a part of parallel throughout solitary phone cable
+              line with every phone associated through communicate a transfer in the framework.
+
+              At the point when any of phone is picked up every single other telephone are disengaged by the transfers
+              through a configuration plan of opt couplers, the consequence of that is provided to a code able Arduino.
+              The Arduino drives signal to a seven segment demonstration to show which phone is picked up, whereas
+              different phones are disengaged by particular transfers with assist of Relay-Driver Integrated Circuit
+              connected to Arduino.
+
+              The system can be utilized in home and workplaces there two or more phone is associated in parallel
+              throughout a solitary phone line wire. The venture is reasonable for both approaching and going outward
+              calls.
+
+              Facilitate the venture can be upgraded by including more numeral of telephones with intercom service. An
+              approaching caller ID service can likewise add further to this.
+              <br>
+              <a href="https://jsr.org/index.php/path/article/view/552"><strong>Link to paper</strong></a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Autonomous Fire Safety System for Gas Leak Detection
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Abstract: </strong> LPG and Natural Gas are the two primary gases used in Gas cookers all over the
+              world , when these Gases leak in high concentration in enclosed areas the results can be fatal. Keeping
+              this situation in mind this paper proposes a solution which prevents the buildup of flammable gases in
+              enclosed area by autonomously opening windows through linear actuators. The concentration of flammable gas
+              in a room can be detected through the MQ-5 sensor , once the concentration of this gas exceeds the
+              predefined threshold MQ-5 sensor sends an output to the Raspberry Pi which takes a series of steps in
+              order to prevent the situation from taking a fatal turn. The steps include: Opening the Windows in order
+              to prevent the buildup of flammable gas, Alerting the Residents of the house via an E-mail and an indoor
+              alarm, Sending the precise location of the house (GPS co-ordinates) to a fire station. All these steps are
+              done autonomously in real time , thereby responding to the situation in the most efficient way.
+              <br>
+              <a href="https://www.jsr.org/index.php/path/article/view/898"><strong>Link to paper</strong></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+</main>
+
+<body>
+  <br><br><br><br><br>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Projects</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Research Papers</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About me</a></li>
+    </ul>
+    <p class="text-center text-muted">Jibreal Khan</p>
+  </footer>
+
+</body>
+
+
+<!-- Java Script source-->
+<script src="Javascript/bootstrap.js"></script>
+<script src="Javascript/bs.js"></script>
+
+
+</html>
